@@ -1,4 +1,4 @@
-# bim-to-analysisBIM-to-Analysis Workflow and Design Surrogate
+# BIM-to-Analysis Workflow and Design Surrogate
 
 Independent verification of a four-storey braced steel frame, taking a Revit structural model through Oasys GSA and comparing the results against first-principles Eurocode 3 design calculations.
 
