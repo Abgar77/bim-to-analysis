@@ -1,0 +1,49 @@
+# ---- Revit ----
+# Backup files Revit creates on every save
+*.0001.rvt
+*.0002.rvt
+*.0003.rvt
+*.[0-9][0-9][0-9][0-9].rvt
+*.rws
+*.slog
+Revit_*.log
+*.rvt.lock
+*_backup/
+ 
+# Journals and temp
+Journals/
+*.dmp
+ 
+# Local family library copies (large, re-downloadable)
+revit/families/
+ 
+# ---- Oasys GSA ----
+# GSA working/temp files
+*.gwb.bak
+*.out
+*.gwa.bak
+ 
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+*.egg-info/
+.pytest_cache/
+ 
+# ---- Data ----
+# Sweep output can reach hundreds of MB - keep locally
+sweep/raw_runs/
+sweep/*.parquet
+surrogate/models/*.pkl
+surrogate/models/*.joblib
+ 
+# ---- OS / editor ----
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+ 
